@@ -9,11 +9,12 @@
 import UIKit
 
 class PornTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var name: UILabel!
-    @IBOutlet weak var rating: UITextView!
-    @IBOutlet weak var poster: UIImageView!
     
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var poster: UIImageView!
+    @IBOutlet weak var certified: UIImageView!
+    @IBOutlet weak var rating: UILabel!
+        
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

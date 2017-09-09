@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A987513C1F63AEC9000758B0 /* PornReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A987513B1F63AEC9000758B0 /* PornReviewsViewController.swift */; };
 		A9950FFD1F60E144008B22EE /* CertifiedEnormousPornTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9950FFC1F60E144008B22EE /* CertifiedEnormousPornTableViewCell.swift */; };
 		A9A67B7E1F60C845003FFE52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A67B7D1F60C845003FFE52 /* AppDelegate.swift */; };
 		A9A67B801F60C845003FFE52 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A67B7F1F60C845003FFE52 /* FirstViewController.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A987513B1F63AEC9000758B0 /* PornReviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PornReviewsViewController.swift; sourceTree = "<group>"; };
 		A9950FFC1F60E144008B22EE /* CertifiedEnormousPornTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertifiedEnormousPornTableViewCell.swift; sourceTree = "<group>"; };
 		A9A67B7A1F60C845003FFE52 /* Enormous Eggplants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enormous Eggplants.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A67B7D1F60C845003FFE52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				A9A67B7F1F60C845003FFE52 /* FirstViewController.swift */,
 				A9A67B811F60C845003FFE52 /* SecondViewController.swift */,
 				A9A67B831F60C845003FFE52 /* Main.storyboard */,
+				A987513B1F63AEC9000758B0 /* PornReviewsViewController.swift */,
 				A9E3A6B61F62285D00212B2D /* PornTableViewController.swift */,
 				A9E3A6BE1F623AD000212B2D /* PornTableViewCell.swift */,
 				A9E3A6BA1F6229F500212B2D /* Porn.swift */,
@@ -290,6 +293,7 @@
 				A9950FFD1F60E144008B22EE /* CertifiedEnormousPornTableViewCell.swift in Sources */,
 				A9A67B821F60C845003FFE52 /* SecondViewController.swift in Sources */,
 				A9A67B7E1F60C845003FFE52 /* AppDelegate.swift in Sources */,
+				A987513C1F63AEC9000758B0 /* PornReviewsViewController.swift in Sources */,
 				A9E3A6B71F62285D00212B2D /* PornTableViewController.swift in Sources */,
 				A9A67B801F60C845003FFE52 /* FirstViewController.swift in Sources */,
 			);

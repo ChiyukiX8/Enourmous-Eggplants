@@ -11,10 +11,7 @@ import UIKit
 var porn = [Porn]()
 
 class PornTableViewController: UITableViewController {
-
     
-    @IBOutlet weak var pornTable: UITableView!
-    @IBOutlet var pornView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         loadBoneafiedEnormousPorn()
@@ -102,12 +99,13 @@ class PornTableViewController: UITableViewController {
     
     private func loadBoneafiedEnormousPorn(){
      
-        let gameOfBones = Porn(title: "Game of Bones", poster: #imageLiteral(resourceName: "gameOfBones"), rating: "85")
-        let forrestHump = Porn(title: "Forrest Hump", poster: #imageLiteral(resourceName: "forrestHump"), rating: "71")
-        let assablanca = Porn(title: "Assablanca", poster: #imageLiteral(resourceName: "assablanca600"), rating: "97")
-        let goodWillHumping = Porn(title: "Good Will Humping", poster: #imageLiteral(resourceName: "good-will-humping600"), rating: "97")
+        let gameOfBones = Porn(title: "Game of Bones", poster: #imageLiteral(resourceName: "gameOfBones"), rating: "85%", userScore: "95%")
+        let forrestHump = Porn(title: "Forrest Hump", poster: #imageLiteral(resourceName: "forrestHump"), rating: "71%", userScore: "14%")
+        let assablanca = Porn(title: "Assablanca", poster: #imageLiteral(resourceName: "assablanca600"), rating: "97%", userScore: "50%")
+        let goodWillHumping = Porn(title: "Good Will Humping", poster: #imageLiteral(resourceName: "good-will-humping600"), rating: "97%", userScore: "70%")
+        let jurassicPork = Porn(title: "Jurassic Pork", poster: #imageLiteral(resourceName: "menspornjurassic-porkjurassic-pork"), rating: "93%", userScore: "90%")
         
-        porn += [gameOfBones, forrestHump, assablanca, goodWillHumping]
+        porn += [gameOfBones, forrestHump, assablanca, goodWillHumping, jurassicPork]
         
         
     }
