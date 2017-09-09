@@ -15,12 +15,14 @@ class Porn {
     var rating: String
     var userScore: String
     var pornReviews = [PornReview]()
+    var reviewIcon: UIImage
     
-    init(title: String, poster: UIImage?, rating: String, userScore: String, pornReviews: [PornReview]){
+    init(title: String, poster: UIImage?, rating: String, userScore: String, pornReviews: [PornReview], reviewIcon: UIImage){
         self.title = title
         self.poster = poster!
         self.rating = rating
         self.userScore = userScore
         self.pornReviews = pornReviews
+        self.reviewIcon = reviewIcon
     }
 }

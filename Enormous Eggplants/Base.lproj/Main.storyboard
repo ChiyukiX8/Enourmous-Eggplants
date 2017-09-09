@@ -40,7 +40,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Eggplant" translatesAutoresizingMaskIntoConstraints="NO" id="gbX-kI-is7">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gbX-kI-is7">
                                             <rect key="frame" x="117" y="37" width="11" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
@@ -57,6 +57,7 @@
                                     <outlet property="name" destination="hB2-aF-M4R" id="E1p-kr-Cbt"/>
                                     <outlet property="poster" destination="Jia-yg-4eu" id="SGK-NW-Qtk"/>
                                     <outlet property="rating" destination="wNg-B9-TPl" id="COJ-jq-L8q"/>
+                                    <outlet property="reviewIcon" destination="gbX-kI-is7" id="2A9-Dm-UXR"/>
                                     <segue destination="Kdf-Pr-1Iv" kind="show" identifier="ShowReviews" id="OUM-tL-Xsh"/>
                                 </connections>
                             </tableViewCell>
@@ -202,16 +203,16 @@
         <scene sceneID="TjQ-Rb-goE">
             <objects>
                 <viewController id="VxY-H6-5xU" customClass="PornReviewsTableViewController" customModule="Enormous_Eggplants" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="180" sectionHeaderHeight="28" sectionFooterHeight="28" id="eV0-Od-Wqm">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="240" sectionHeaderHeight="28" sectionFooterHeight="28" id="eV0-Od-Wqm">
                         <rect key="frame" x="0.0" y="0.0" width="413" height="354"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PornReviewTableViewCell" id="ziU-MO-upW" customClass="PornReviewTableViewCell" customModule="Enormous_Eggplants" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="413" height="180"/>
+                                <rect key="frame" x="0.0" y="28" width="413" height="240"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ziU-MO-upW" id="qqd-G9-jKm">
-                                    <rect key="frame" x="0.0" y="0.0" width="413" height="179.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="413" height="239.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iNv-6O-E2o">
@@ -232,7 +233,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TwK-eI-p8q">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TwK-eI-p8q">
                                             <rect key="frame" x="86" y="96" width="319" height="75"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -258,7 +259,6 @@
         <!--Cumming Soon-->
         <scene sceneID="VLA-qH-bR5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0Tb-ll-HMP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="A0y-zJ-jwP" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Cumming Soon" image="Tissue-Box-20x20" id="cPa-gy-q4n"/>
                     <toolbarItems/>
@@ -271,6 +271,7 @@
                         <segue destination="Ts7-rd-5B8" kind="relationship" relationship="rootViewController" id="Iv1-jU-Bxa"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Tb-ll-HMP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="749.27536231884062" y="358.69565217391306"/>
         </scene>

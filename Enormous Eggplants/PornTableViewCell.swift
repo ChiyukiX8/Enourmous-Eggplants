@@ -12,8 +12,8 @@ class PornTableViewCell: UITableViewCell {
     
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var poster: UIImageView!
-    @IBOutlet weak var certified: UIImageView!
     @IBOutlet weak var rating: UILabel!
+    @IBOutlet weak var reviewIcon: UIImageView!
         
     override func awakeFromNib() {
         super.awakeFromNib()
