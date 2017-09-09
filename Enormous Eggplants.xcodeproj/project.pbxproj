@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90FB81E1F64257000834AA7 /* PornReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FB81D1F64257000834AA7 /* PornReviewTableViewCell.swift */; };
+		A90FB8201F64283B00834AA7 /* PornReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FB81F1F64283B00834AA7 /* PornReview.swift */; };
+		A90FB8221F6454E900834AA7 /* PornReviewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FB8211F6454E900834AA7 /* PornReviewsTableViewController.swift */; };
 		A987513C1F63AEC9000758B0 /* PornReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A987513B1F63AEC9000758B0 /* PornReviewsViewController.swift */; };
 		A9950FFD1F60E144008B22EE /* CertifiedEnormousPornTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9950FFC1F60E144008B22EE /* CertifiedEnormousPornTableViewCell.swift */; };
 		A9A67B7E1F60C845003FFE52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A67B7D1F60C845003FFE52 /* AppDelegate.swift */; };
@@ -48,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A90FB81D1F64257000834AA7 /* PornReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PornReviewTableViewCell.swift; sourceTree = "<group>"; };
+		A90FB81F1F64283B00834AA7 /* PornReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PornReview.swift; sourceTree = "<group>"; };
+		A90FB8211F6454E900834AA7 /* PornReviewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PornReviewsTableViewController.swift; sourceTree = "<group>"; };
 		A987513B1F63AEC9000758B0 /* PornReviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PornReviewsViewController.swift; sourceTree = "<group>"; };
 		A9950FFC1F60E144008B22EE /* CertifiedEnormousPornTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertifiedEnormousPornTableViewCell.swift; sourceTree = "<group>"; };
 		A9A67B7A1F60C845003FFE52 /* Enormous Eggplants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enormous Eggplants.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,10 +127,13 @@
 				A9A67B7F1F60C845003FFE52 /* FirstViewController.swift */,
 				A9A67B811F60C845003FFE52 /* SecondViewController.swift */,
 				A9A67B831F60C845003FFE52 /* Main.storyboard */,
+				A90FB8211F6454E900834AA7 /* PornReviewsTableViewController.swift */,
+				A90FB81D1F64257000834AA7 /* PornReviewTableViewCell.swift */,
 				A987513B1F63AEC9000758B0 /* PornReviewsViewController.swift */,
 				A9E3A6B61F62285D00212B2D /* PornTableViewController.swift */,
 				A9E3A6BE1F623AD000212B2D /* PornTableViewCell.swift */,
 				A9E3A6BA1F6229F500212B2D /* Porn.swift */,
+				A90FB81F1F64283B00834AA7 /* PornReview.swift */,
 				A9E3A6B21F61FE4200212B2D /* Assets.xcassets */,
 				A9950FFC1F60E144008B22EE /* CertifiedEnormousPornTableViewCell.swift */,
 				A9A67B881F60C845003FFE52 /* LaunchScreen.storyboard */,
@@ -290,8 +299,11 @@
 			files = (
 				A9E3A6BB1F6229F500212B2D /* Porn.swift in Sources */,
 				A9E3A6BF1F623AD000212B2D /* PornTableViewCell.swift in Sources */,
+				A90FB81E1F64257000834AA7 /* PornReviewTableViewCell.swift in Sources */,
 				A9950FFD1F60E144008B22EE /* CertifiedEnormousPornTableViewCell.swift in Sources */,
+				A90FB8201F64283B00834AA7 /* PornReview.swift in Sources */,
 				A9A67B821F60C845003FFE52 /* SecondViewController.swift in Sources */,
+				A90FB8221F6454E900834AA7 /* PornReviewsTableViewController.swift in Sources */,
 				A9A67B7E1F60C845003FFE52 /* AppDelegate.swift in Sources */,
 				A987513C1F63AEC9000758B0 /* PornReviewsViewController.swift in Sources */,
 				A9E3A6B71F62285D00212B2D /* PornTableViewController.swift in Sources */,
